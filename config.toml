@@ -1,4 +1,4 @@
 baseURL = 'http://sonofacar.github.io'
 languageCode = 'en-us'
-title = 'My Data Science Blog'
+title = 'The Data Kitchen'
 theme = 'hugo-flex'
