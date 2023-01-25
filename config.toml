@@ -1,4 +1,4 @@
-baseURL = 'http://sonofacar.github.io'
+baseURL = 'https://sonofacar.github.io'
 languageCode = 'en-us'
 title = 'The Data Kitchen'
 theme = 'hugo-flex'
