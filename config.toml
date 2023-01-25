@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://sonofacar.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'My Data Science Blog'
 theme = 'hugo-flex'
