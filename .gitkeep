@@ -1,0 +1,10 @@
+.github
+archetypes
+assets
+content
+data
+layouts
+public
+static
+themes
+config.toml
