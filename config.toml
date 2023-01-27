@@ -1,4 +1,4 @@
-baseURL = 'https://sonofacar.github.io'
+baseURL = 'https://Sonofacar.github.io'
 languageCode = 'en-us'
 title = "Carson's Data Science Blog"
 theme = 'hugo-ficurinia'
