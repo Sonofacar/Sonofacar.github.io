@@ -1,0 +1,5 @@
+{{ if eq site.Language.Lang "it" }}
+    {{ .Format "02-01-2006" }}
+{{ else }}
+    {{ .Format "2006-01-02" }}
+{{ end }}
