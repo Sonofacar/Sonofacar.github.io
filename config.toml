@@ -1,4 +1,54 @@
 baseURL = 'https://sonofacar.github.io'
 languageCode = 'en-us'
-title = 'The Data Kitchen'
-theme = 'hugo-flex'
+title = "Carson's Data Science Blog"
+theme = 'hugo-ficurinia'
+
+################
+# Theme Config #
+################
+
+paginate = 5  # number of articles per page in the index
+summaryLength = 70  # number of words for article summaries
+
+
+[params]
+    author = "Carson Buttars"
+    description = "A data science blog"  # this will be added as metadata
+
+    posts = "posts"  # content directory where to find home page posts; default searches in "posts" and "post"
+    showPostsLink = true  # show or hide the link to the simple post list
+    extraContentDirs = []  # other content directories to render similarly to the home page
+    showcaseDir = "showcase"  # create a content directory that shows a special showcase section in the home page
+
+    # shows a specified single page as a home page, instead of the traditional articles list
+    # requires setting `homeSinglePage`
+    # goes well with extraContentDirs
+    showSinglePageAsHome = false
+    homeSinglePage = "/home"
+
+    # It's best to put these icons in the "static" folder of your site
+    logo = "/logo.svg"
+    favicon = "/favicon.png"  # 32x32
+    faviconIco = "/favicon.ico"  # 32x32
+    appletouch = "/apple-touch-icon.png"  # 180x180
+    svgicon = "/logo.svg"
+    icon512 = "/icon512.png"  # 512x512 png image
+
+    logoRightOfTitle = false  # positions the logo to the right of the title; default: false
+
+    showAbout = true # show the About menu item; default true
+    showTags = true  # show the Tags menu item; default true
+    #showRss = true  # show the link for the RSS feed; default true
+
+    imageInArticlePreview = false  # show images in article preview; default false
+    fitImageInArticlePreview = false  # make article preview images fit the article preview instead of getting cropped
+    articleSummary = true  # show a summary in article preview; default true
+    
+    fontFamily = "JetBrains Mono"  # changes the font, default "JetBrains Mono"
+    titleFontFamily = "JetBrains Mono"  # font used for titles and headings
+    monospaceFontFamily = "JetBrains Mono"  # changes the monospace font for code, default "JetBrains Mono"
+
+    # multipliers applied to font sizes, useful for custom fonts that may be too big or too small
+    titleFontSizeMultiplier = 1.0
+    mainFontSizeMultiplier = 1.0
+    monoFontSizeMultiplier = 1.0
