@@ -4,7 +4,8 @@ date: 2023-01-27
 tags:
   - Vim
   - Programming
-draft: true
+draft: false
+comments: true
 ---
 
 # Why Vim?

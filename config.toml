@@ -52,6 +52,3 @@ summaryLength = 70  # number of words for article summaries
     titleFontSizeMultiplier = 1.0
     mainFontSizeMultiplier = 1.0
     monoFontSizeMultiplier = 1.0
-
-    # Comments trough Github utterances
-    utterances = true
