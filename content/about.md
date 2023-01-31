@@ -5,6 +5,7 @@ draft: false
 image: "/images/post-pics/about-me.webp"
 showDate: false
 alt: "Picture of me"
+comments: false
 ---
 # About this blog
 
