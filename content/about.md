@@ -2,7 +2,7 @@
 title: "About Me"
 date: 2023-01-27
 draft: false
-image: "/images/post-pics/about-me.jpg"
+image: "/images/post-pics/about-me.webp"
 showDate: false
 alt: "Picture of me"
 ---
