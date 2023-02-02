@@ -143,3 +143,5 @@ Here are some of the most important to know:
 - `:e <path to file>` begin editing file of choice
 - `:E` open Netrw (file explorer)
 - `:h <topic>` open a help window on a certain topic
+
+

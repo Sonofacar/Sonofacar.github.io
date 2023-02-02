@@ -38,7 +38,7 @@ summaryLength = 70  # number of words for article summaries
 
     showAbout = true # show the About menu item; default true
     showTags = true  # show the Tags menu item; default true
-    #showRss = true  # show the link for the RSS feed; default true
+    showRss = false  # show the link for the RSS feed; default true
 
     imageInArticlePreview = false  # show images in article preview; default false
     fitImageInArticlePreview = false  # make article preview images fit the article preview instead of getting cropped
