@@ -3,6 +3,9 @@ title: "Book Review: The Age of Surveillance Capitalism by Shoshana Zuboff"
 date: 2023-03-01T22:36:44-07:00
 image: "/images/post-pics/camera.webp"
 alt: ""
+tags:
+  - Surveillance Capitalism
+  - Book review
 draft: false
 ---
 
