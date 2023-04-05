@@ -23,7 +23,7 @@ For example, a player can score many points, but if they shot and miss many shot
 In general, they still do an okay job at measuring the ability of a player.
 For my case, I got each data point per game (points per game, etc.), which makes it somewhat reliant on how long they play in each game.
 
-{{< figure src="/standard_comparison.webp" alt="Graphs showing the mean points per game, assists per game, and rebounds per game, all of which are measured based on their draft pick." width="1000" >}}
+{{< figure src="/standard_comparison.webp" alt="Graphs showing the mean points per game, assists per game, and rebounds per game, all of which are measured based on their draft pick." width="1200" >}}
 
 In this image, I simply made a line graph marking the mean points per game, assists per game, and rebounds per game based on the player's pick.
 As we can see, there is generally a correlation bewteen the lower (earlier) pick number and higher each of these statistics.
@@ -52,7 +52,7 @@ You can think of it like this: if a player is valuable, they will play more and 
 This can also be useful in the context of other stats.
 In thinking about the shooting statistics, we can choose a minimum number of years/games/minutes, and it will help us more accurately evaluate the value you would likely get out of a player in that range.
 
-{{< figure src="/basic_comparison.webp" alt="Density plots of years, games, and minutes" width="1000" >}}
+{{< figure src="/basic_comparison.webp" alt="Density plots of years, games, and minutes" width="1200" >}}
 
 From these, it seems like it would make the most sense to limit based on the amount of minutes the player has played.
 If we set a minimum of 5000 minutes, we would limit a large portion of players who didn't last long in the league.
@@ -84,7 +84,7 @@ Here are also some links to a better explanation of how these are calculated:
 - [Winshares per 48 minutes](https://www.basketball-reference.com/about/ws.html)
 - [Box plus minus/Value over replacement](https://www.basketball-reference.com/about/bpm2.html)
 
-{{< figure src="/advanced_comparison.webp" alt="Graph displaying the the winshares per 48 minutes, box plus minus, and value over replacement over the player's pick" width="1000" >}}
+{{< figure src="/advanced_comparison.webp" alt="Graph displaying the the winshares per 48 minutes, box plus minus, and value over replacement over the player's pick" width="1200" >}}
 
 In those scatter plots, I chose to also put a line roughly displaying the mean, at each pick.
 While there are some extreme outliers on either end, we can see some general trends.
