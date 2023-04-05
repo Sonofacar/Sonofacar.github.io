@@ -1,8 +1,8 @@
 ---
 title: "NBA Draft Exploratory Data Analysis"
 date: 2023-03-31
-image: "/images/post-pics/"
-alt: ""
+image: "/images/post-pics/basketball.webp"
+alt: "Dramatic picture of basketball laying in a basketball court"
 draft: false
 ---
 
