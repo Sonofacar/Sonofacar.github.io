@@ -13,7 +13,7 @@ The data has information about the NBA draft and some information about that pla
 I will look at the data and see whether there is any relationship between a higher pick number and various data points related to a player's success.
 For now, I am just going to explore the data and see what is worth looking into
 
-{{< figure src="/overall-comparison-table.webp" alt="Table showing the averages aggregated by every 10 picks" width="500" >}}
+{{< figure src="/overall-comparison-table.webp" alt="Table showing the averages aggregated by every 10 picks" width="1000" >}}
 
 ### The Standard Stats: Points, Assists, and Rebounds
 
@@ -23,7 +23,7 @@ For example, a player can score many points, but if they shot and miss many shot
 In general, they still do an okay job at measuring the ability of a player.
 For my case, I got each data point per game (points per game, etc.), which makes it somewhat reliant on how long they play in each game.
 
-{{< figure src="/standard_comparison.webp" alt="Graphs showing the mean points per game, assists per game, and rebounds per game, all of which are measured based on their draft pick." width="500" >}}
+{{< figure src="/standard_comparison.webp" alt="Graphs showing the mean points per game, assists per game, and rebounds per game, all of which are measured based on their draft pick." width="1000" >}}
 
 In this image, I simply made a line graph marking the mean points per game, assists per game, and rebounds per game based on the player's pick.
 As we can see, there is generally a correlation bewteen the lower (earlier) pick number and higher each of these statistics.
@@ -37,7 +37,7 @@ The problem is that some shots are more valuable than others.
 Free throws are the easiest, but they are worth only 1 point.
 Then there are field goals (regular shots) that are worth 2, and three-pointers are the hardest and most valuable.
 
-{{< figure src="/shooting.webp" alt="Graph displaying the shooting percentage and their means based on each type of shot and the player's pick in the draft" width="500" >}}
+{{< figure src="/shooting.webp" alt="Graph displaying the shooting percentage and their means based on each type of shot and the player's pick in the draft" width="700" >}}
 
 We see what we would expect from this: a general correlation between higher shot percentages and the earlier picks.
 However, we can see an odd occurance; there are many outliers that have made either 100% or 0% of various types of shots.
@@ -52,7 +52,7 @@ You can think of it like this: if a player is valuable, they will play more and 
 This can also be useful in the context of other stats.
 In thinking about the shooting statistics, we can choose a minimum number of years/games/minutes, and it will help us more accurately evaluate the value you would likely get out of a player in that range.
 
-{{< figure src="/basic_comparison.webp" alt="Density plots of years, games, and minutes" width="500" >}}
+{{< figure src="/basic_comparison.webp" alt="Density plots of years, games, and minutes" width="1000" >}}
 
 From these, it seems like it would make the most sense to limit based on the amount of minutes the player has played.
 If we set a minimum of 5000 minutes, we would limit a large portion of players who didn't last long in the league.
@@ -60,7 +60,7 @@ This also logically makes sense to use for a filter: a player can stay in the le
 
 ### Returning to Shooting Stats
 
-{{< figure src="/shooting_with_minutes_restriction.webp" alt="Graph displaying the shooting percentage and their means based on each type of shot and the player's pick in the draft" width="500" >}}
+{{< figure src="/shooting_with_minutes_restriction.webp" alt="Graph displaying the shooting percentage and their means based on each type of shot and the player's pick in the draft" width="700" >}}
 
 After applying the minimum number of minutes, there was a large shift in the correlation.
 Now the mean stays constant across all pick numbers, and even seems to have a slight positive correlation in the case of three point percentage.
@@ -84,7 +84,7 @@ Here are also some links to a better explanation of how these are calculated:
 [Winshares per 48 minutes](https://www.basketball-reference.com/about/ws.html)
 [Box plus minus/Value over replacement](https://www.basketball-reference.com/about/bpm2.html)
 
-{{< figure src="/advanced_comparison.webp" alt="Graph displaying the the winshares per 48 minutes, box plus minus, and value over replacement over the player's pick" width="500" >}}
+{{< figure src="/advanced_comparison.webp" alt="Graph displaying the the winshares per 48 minutes, box plus minus, and value over replacement over the player's pick" width="1000" >}}
 
 In those scatter plots, I chose to also put a line roughly displaying the mean, at each pick.
 While there are some extreme outliers on either end, we can see some general trends.
