@@ -81,8 +81,8 @@ Here is a quick summary of what each attempts to do:
 - Value over replacement: using box plus minus, this estimates the difference in value between the player and a theoretical replacement player in the league
 
 Here are also some links to a better explanation of how these are calculated:
-[Winshares per 48 minutes](https://www.basketball-reference.com/about/ws.html)
-[Box plus minus/Value over replacement](https://www.basketball-reference.com/about/bpm2.html)
+- [Winshares per 48 minutes](https://www.basketball-reference.com/about/ws.html)
+- [Box plus minus/Value over replacement](https://www.basketball-reference.com/about/bpm2.html)
 
 {{< figure src="/advanced_comparison.webp" alt="Graph displaying the the winshares per 48 minutes, box plus minus, and value over replacement over the player's pick" width="1000" >}}
 
