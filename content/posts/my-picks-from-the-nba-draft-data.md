@@ -1,8 +1,8 @@
 ---
 title: "My Pick from the NBA Draft Data"
 date: 2023-04-19
-image: "/images/post-pics/"
-alt: ""
+image: "/images/post-pics/stadium.webp"
+alt: "Stadium full of people"
 draft: false
 ---
 
