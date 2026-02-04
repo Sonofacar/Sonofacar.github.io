@@ -7,7 +7,8 @@ theme = 'hugo-ficurinia'
 # Theme Config #
 ################
 
-paginate = 5  # number of articles per page in the index
+#paginate = 5  # number of articles per page in the index
+pagination.pagerSize = 5  # number of articles per page in the index
 summaryLength = 70  # number of words for article summaries
 
 

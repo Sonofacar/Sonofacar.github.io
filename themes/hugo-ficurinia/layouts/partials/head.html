@@ -34,7 +34,7 @@
     {{ if and site.Params.cactusCommentsSiteName (.Params.comments | default true) }}
         <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
     {{ end }}
-    {{ $style := resources.Get "/scss/style.scss" | resources.ExecuteAsTemplate "/scss/style.scss" . | resources.ToCSS (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" "true") | resources.Fingerprint "sha512" }}
+    {{ $style := resources.Get "/scss/style.scss" | resources.ExecuteAsTemplate "/scss/style.scss" . | css.Sass (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" "true") | resources.Fingerprint "sha512" }}
     <link type="text/css" rel="stylesheet" href={{ $style.Permalink }} integrity="{{ $style.Data.Integrity }}" />
     {{- partial "inject/head.html" . -}}
     {{- partial "head_meta_seo.html" . -}}

@@ -8,7 +8,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta charset="UTF-8"/>
-        {{ $style := resources.Get "/scss/style.scss" | resources.ExecuteAsTemplate "/scss/style.scss" . | resources.ToCSS (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" "true") | resources.Fingerprint "sha512" }}
+        {{ $style := resources.Get "/scss/style.scss" | resources.ExecuteAsTemplate "/scss/style.scss" . | css.Sass (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" "true") | resources.Fingerprint "sha512" }}
         <link type="text/css" rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" />
         <style>
           .aboutfeeds {
